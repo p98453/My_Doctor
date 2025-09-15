@@ -1,0 +1,47 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "顶部导航栏",
+				"navigationBarBackgroundColor": "#007aff"
+			}
+		},
+		{
+			"path" : "pages/chat/chat",
+			"style" : 
+			{
+				"navigationBarTitleText" : "AI问答界面"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {},
+	"tabBar": {
+			"color": "#7A7E83",
+			"selectedColor": "#3cc51f",
+			"borderStyle": "black",
+			"backgroundColor": "#ffffff",
+			"height": "50px",
+			"fontSize": "10px",
+			"iconWidth": "24px",
+			"spacing": "3px",
+			"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "/static/home_pre.png",
+				"selectedIconPath": "/static/home.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/chat/chat",
+				"iconPath": "/static/chat_pre.png",
+				"selectedIconPath": "static/chat.png",
+				"text": "对话"
+			}]
+		}
+}
